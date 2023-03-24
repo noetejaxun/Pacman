@@ -1,0 +1,35 @@
+.cell_n {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .accept {
+    width: 100px;
+    height: 40px;
+    margin: 2px; 
+  }
+  .start {
+    background-color: green;
+  }
+  
+  .path {
+    background-color: yellow;
+  }
+
+  .end {
+    background-color: red;
+  }
+  
+  .obstacle {
+    background-color: black;
+  }
+  
+  .grid {
+    display: grid;
+    grid-gap: 2px;
+  }
+  
